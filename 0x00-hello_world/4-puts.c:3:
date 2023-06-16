@@ -1,0 +1,13 @@
+#include <stdio.h>
+ /**
+  *Main value: Program entry point
+ */
+int main(void)
+{
+ puts("\"Programming is like building a multilingual puzzle");
+
+ /**
+   *Return value: 0 indicates successful execution
+ */
+ return(0);
+}
