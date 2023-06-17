@@ -21,8 +21,6 @@ int main(void)
 			putchar(87 + n);
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
