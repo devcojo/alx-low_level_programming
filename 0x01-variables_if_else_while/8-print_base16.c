@@ -8,19 +8,14 @@
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 0; n < 10; n++)
+	for (i = 0; i < 10; i++)
 	{
-		if (n < 10)
-		{
-		putchar('0' + n);
-		}
-		else
-		{
-			putchar(87 + n);
-		}
+		putchar(i + '0');
 	}
+
 	putchar('\n');
+
 	return (0);
 }
