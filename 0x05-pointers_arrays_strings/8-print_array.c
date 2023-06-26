@@ -10,19 +10,15 @@
 
 void print_array(int *a, int n)
 {
-	int i;
+	int index_of_array;
 
-	if (n <= 0 || a == NULL)  /* Check for invalid input */
-	return;
-
-	for (i = 0; i < n; i++)
+	for (index_of_array = 0; index_of_array < n; index_of_array++)
 	{
-	printf("%d", a[i]);
-	if (i < n - 1)
-	{
-	printf(", ");  /* Print comma and space for all elements */
+		printf("%d", a[index_of_array]);
+		if (index_of_array != (n - 1))
+		{
+			printf(", ");
+		}
 	}
-	}
-
-	printf("\n");  /* Print new line after printing the array */
+	printf("\n");
 }
